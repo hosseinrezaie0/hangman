@@ -21,7 +21,7 @@ answer = []
 for i in range(0, len(chosen_word)):
     answer.append("_")
 
-
+print()
 
 
 lives_left = 6
