@@ -44,4 +44,8 @@ while(lives_left > 0 and letters_left > 0):
     print(answer)
     print(status[6-lives_left])
 
-
+if lives_left == 0:
+    print("GAME OVER")
+    print(f"The word was {chosen_word}")
+else:
+    print("YOU WON")
