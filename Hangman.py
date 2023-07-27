@@ -16,4 +16,8 @@ chosen_word = random.choice(words_list)
 for i in range(0, len(chosen_word)):
     print("_", end=" ")
 
+#create answer
+answer = []
+for i in range(0, len(chosen_word)):
+    answer.append("_")
 
